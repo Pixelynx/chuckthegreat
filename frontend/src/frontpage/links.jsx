@@ -6,5 +6,6 @@ export const Links = () => {
     <div className='links'>
       Links
     </div>
-  </div>)
+  </div>
+  )
 }

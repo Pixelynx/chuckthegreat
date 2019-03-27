@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Player from '../player/player.jsx';
 
 export const UnderConstruction = () => {
   return(
@@ -9,6 +10,7 @@ export const UnderConstruction = () => {
       <div className='player_containter'></div>
       <div className='links'></div>
     </div>
+    <Player />
     </>
   )
 }
