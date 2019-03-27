@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { UnderConstruction } from './frontpage/under_construction.jsx';
 import { Links } from './frontpage/links.jsx';
+import Player from './player/player.jsx';
 
 class App extends Component {
   render() {
@@ -8,7 +9,7 @@ class App extends Component {
       <div>
         <UnderConstruction />
         <Links />
-        Hello
+        <Player />
       </div>
     );
   }
