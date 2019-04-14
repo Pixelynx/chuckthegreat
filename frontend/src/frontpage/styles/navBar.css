@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+}
+
+.menu_button {
+  /* display: flex; */
+  order: 2;
+  height: 50px;
+  width: 50px;
+  background-color: gray;
+}
+
+.nav_container {
+  display: flex;
+  position: fixed;
+  transform: translate3d(-250px, 0, 0);
+}
+
+.nav_bar_ul {
+  padding: 0;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  background-color: black;
+
+}
+
+
+.nav_link {
+  display: inline-block;
+  text-align: center;
+  font-size: 70px;
+  height: 100px;
+  width: 250px;
+}
+
+.nav_link:hover {
+  background-color: pink;
+}
