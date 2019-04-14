@@ -1,0 +1,30 @@
+.twitter_logo {
+  background-image: url('./imgs/twitter_logo.png');
+  height: 100px;
+  width: 100px;
+  border: none;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.ig_logo {
+  background-image: url('./imgs/IG_logo.png');
+  height: 100px;
+  width: 100px;
+  border: none;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.apple_logo {
+  background-image: url('./imgs/apple_logo.png');
+  height: 100px;
+  width: 100px;
+  border: none;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.links {
+  display: flex;
+}
