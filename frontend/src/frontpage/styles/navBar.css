@@ -3,26 +3,60 @@
 }
 
 .menu_button {
+  order: 1;
   /* display: flex; */
-  order: 2;
   height: 50px;
   width: 50px;
-  background-color: gray;
+  background-color: pink !important;
 }
 
-.nav_container {
+#nav_container {
   display: flex;
   position: fixed;
+  transition: transform 1s;
+  width: calc(100vw + 250px);
+}
+
+#nav_container.show {
+  /* transform: translate3d(0, 0, 0); */
+  /* transition: opacity(0.5s); */
+  /* opacity: 1; */
+}
+
+#nav_container.hide {
+  /* transform: translate3d(-250px, 0, 0); */
+}
+
+#nav_bar {
+  /* width: 100vw; */
+  /* background-color: black; */
+}
+
+#nav_bar.show {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 3000ms;
+
+  width: 100vw;
+  /* opacity: 1; */
+}
+
+#nav_bar.hide {
+  opacity: 0.01;
   transform: translate3d(-250px, 0, 0);
+  transform: scale(1.1);
+  transition: all 3000ms;
+  /* opacity: 1; */
 }
 
 .nav_bar_ul {
   padding: 0;
-  height: 100vh;
-
   display: flex;
   flex-direction: column;
   list-style: none;
+  height: 100vh;
+  color: white;
+  font-family: sans-serif;
   background-color: black;
 
 }
